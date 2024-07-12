@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg" href="../assets/icon.svg" />
+    <link rel="stylesheet" href="registerView.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <script type="module" src="/src/views/registerView.ts"></script>
+    <script src="/src/helpers/themeHelper.ts"></script>
+  </head>
+  <body>
+    <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+      <img src="../assets/logo.svg" alt="company logo" style="margin-bottom: 2rem; max-height: 150px; height: 100%; margin-left: 50px;" />
+      <div id="register-page">
+        <div id="theme-toggle">
+          <button id="moon-icon">🌑</button>
+          <button id="sun-icon" style="display: none">☀️</button>
+        </div>
+      </div>
+      <div id="loginPart">
+        <a id="loginButton">Click me to login</a>
+      </div>
+    </div>
+  </body>
+</html>

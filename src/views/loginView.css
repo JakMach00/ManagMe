@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #181818;
+}
+
+.container {
+  position: relative;
+}
+
+.login-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  height: 140px;
+}
+
+body.dark-mode .login-form {
+  background: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.login-form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+body.dark-mode .login-form input {
+  margin-top: 10px;
+  background-color: #555;
+  border-color: #888;
+  color: #fff;
+}
+
+.login-form button {
+  display: flex;
+  position: absolute;
+  width: 15rem;
+  justify-content: center;
+  align-items: center;
+  top: 44rem;
+  left: 51rem;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #6c23a8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+#registerButton {
+  display: flex;
+  position: absolute;
+  width: 15rem;
+  justify-content: center;
+  top: 39.5rem;
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+#registerButton:hover{
+  color: #7410b3;
+}
+
+body.dark-mode #registerButton {
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode #registerButton:hover {
+  color: #7410b3;
+}
+
+.login-form button:hover {
+  background-color: #4d1977;
+}
+
+body.dark-mode .login-form button {
+  background-color: #4f187c;
+}
+
+body.dark-mode .login-form button:hover {
+  background-color: #381158;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-toggle button {
+  background: #373737;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  padding-left: 4px;
+  padding-bottom: 3.5px;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode #theme-toggle button {
+  background: #e6e6e6;
+}

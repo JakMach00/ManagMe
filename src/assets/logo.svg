@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 198" width="576" height="198">
+	<title>Logo</title>
+	<defs>
+		<image  width="10" height="175" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAACvBAMAAAA2zVLTAAAAAXNSR0IB2cksfwAAABtQTFRFbAD/bAD/bAD/bAD/bAD/bAD/bAD/bAD/bAD/PmuyNwAAAAl0Uk5TKe5TLP9ZIsJD+I4eoQAAABtJREFUeJxjZBRgYGBkNBklR8lRcpQEk+kgEgCuli/bD3mG5QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 115px;fill: #696969;font-weight: 400;font-family: "Regular", "Allerta Stencil" } 
+	</style>
+	<text id="ManagMe" style="transform: matrix(1,0,0,1,28,133)" >
+		<tspan x="0" y="0" class="t0">M</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">n</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">g</tspan><tspan  y="0" class="t0">M</tspan><tspan  y="0" class="t0">e
+</tspan>
+	</text>
+	<use id="Warstwa 1" href="#img1" x="9" y="11"/>
+</svg>
