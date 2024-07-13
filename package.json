@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite --open /src/views/loginView.html",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
